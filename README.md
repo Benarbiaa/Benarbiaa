@@ -1,6 +1,6 @@
 ### Hi, I'm Emir
 
-Final-year **Data & Software Engineering** student at the University of Carthage (top 3 of 36).
+Final-year **Data & Software Engineering** student at the University of Carthage (ranked 5th of 36).
 I build AI systems that run in production: RAG, LLM agents and vision-language models, on solid data-engineering foundations.
 
 **Looking for a 6-month PFE internship, January – July 2027**, in Tunisia or abroad.
