@@ -10,13 +10,14 @@ Portfolio: **[benarbiaa.github.io](https://benarbiaa.github.io)** · [LinkedIn](
 
 #### Currently building
 
-- **Claim-Verify RAG**: an agentic RAG system that fact-checks its own answer. It splits the answer into atomic claims, re-verifies each one against every source with LangGraph, and flags when sources disagree. *(private for now)*
+- **[Claim-Verify RAG](https://github.com/Benarbiaa/claim-verify-rag)**: an agentic RAG system that fact-checks its own answer. It splits the answer into atomic claims, re-verifies each one against every source with LangGraph, and flags when sources disagree.
 - **Mahara Match**: technical lead of a four-team MVP that matches job seekers to jobs and training through one shared skill vocabulary. Contract-first services, CI and an end-to-end test of the whole flow.
 
 #### Selected projects
 
 | Project | What it is |
 |---|---|
+| [email-extraction-qlora](https://github.com/Benarbiaa/email-extraction-qlora) | QLoRA fine-tuning of Qwen3-4B: recruitment emails → schema-validated JSON, 22.5% → 83.5% exact match vs. few-shot (synthetic test set). [Model on Hugging Face](https://huggingface.co/BenarbiaEmir/qwen3-4b-recruitment-email-json-qlora) |
 | [Fuel-Monitoring-System](https://github.com/Benarbiaa/Fuel-Monitoring-System) | Kafka ingestion, an autonomous LLM agent acting on alerts, Prophet forecasts and a RAG chat assistant |
 | [Global Education Intelligence Platform](https://github.com/Benarbiaa/Global-Education-Intelligence-Platform-Multi-source-Data-Integration-BI) | Python ETL into a PostgreSQL star-schema warehouse, KPI API and dashboards, nightly on GitHub Actions |
 | [OCR](https://github.com/Benarbiaa/OCR) | Invoice parsing API: custom YOLOv5 region detection + Tesseract into structured JSON |
@@ -27,4 +28,5 @@ Portfolio: **[benarbiaa.github.io](https://benarbiaa.github.io)** · [LinkedIn](
 Python · SQL · Java · Go · TypeScript
 FastAPI · Django · Spring Boot · React · Angular
 LangGraph · pgvector · PyTorch · scikit-learn · YOLO
+QLoRA / PEFT · Hugging Face Transformers · Gradio
 PostgreSQL · Kafka · Docker · GitHub Actions
